@@ -10,9 +10,7 @@ public class Test {
         double b = scanner.nextDouble();
         int intB = (int) b;
         int intA = (int) Double.parseDouble(stringA);
-        System.out.println("Максимальное число: " + Math.max(intA, intB));
-        // Второй вариант трактовки пункта 3
         System.out.println("Максимальное число: " + Math.max(a, b));
-        System.out.println("Минимальное число: " + (double) Math.min(intA, intB));
+        System.out.println("Минимальное число: " + Math.min(a, b));
     }
 }
